@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 import cv2
-
-
-# In[7]:
-
 
 cam = cv2.VideoCapture(0)
 
@@ -56,10 +46,3 @@ while True:
         
 cam.release()
 cv2.destroyAllWindows()
-
-
-# In[ ]:
-
-
-
-
